@@ -20,10 +20,28 @@
                 <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
             </li>
         </ul>
-        <div class="w-5 h-5 md:hidden">
+        <div id="opennavbar" class="w-5 h-5 md:hidden">
             <img src="./image/menu (1).png" alt="bar">
         </div>
     </nav>
+   <section class="bg-green-300 flex flex-col text-right p-5 h-full w-5/6 fixed top-0 right-0 z-20 transition-all duration-1000 md:hidden" style="right:-85% ;" id="sidenav">
+        <div id="closenavbar" class="text-right inline cursor-pointer">
+            <p>X</p>
+        </div>
+         <ul class= "text-center p-5 text-gray-400">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li class="m-16">
+                <a class="hover:underline hover:text-black" href="products.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+        
+    </section>
     <section class="bg-green-300 p-4 flex flex-col md:flex-row items-center justify-center">
         <div>
             <p>We offer you a wide range of Artificial and Natural flowers</p>
@@ -68,7 +86,7 @@
                <h2 class=" text-3xl font-bold text-center ">Best Seller</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
             <div>
-                <img class="inline hover:shadow-xltransform hover:translate-y-2" src="./image/pot1.png" alt="plant1">
+                <img class="inline hover:shadow-xl transform hover:translate-y-2" src="./image/pot1.png" alt="plant1">
                 <p>Rose Plant</p>
                 <p>$20</p>
             </div>
@@ -124,6 +142,7 @@
         <p class="mt-3">The standard chunk of lorem isum used since the 1500s is reproduced below for those interest</p>
         <p class="mt-3">@copy;2025 Greenday.com</p>
     </section>
+    <script src="script.js"></script>
     
 </body>
 </html>
